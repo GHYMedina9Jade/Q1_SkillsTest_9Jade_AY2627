@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Q1 Project</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Georgia, serif;
+            background-color: #ffffff;
+            color: #333333;
+        }
+
+        header {
+            background: linear-gradient(to right, #edd8ea, #ff60a8);
+            text-align: center;
+            padding: 35px;
+        }
+
+        header h1 {
+            font-family: Arial, sans-serif;
+            font-size: 36px;
+            margin: 10px;
+            color: #222222;
+        }
+
+        header p {
+            font-style: italic;
+            color: #000000;
+        }
+
+        .container {
+            width: 75%;
+            margin: 25px auto;
+        }
+
+        .section-title {
+            background: linear-gradient(to right, #ff829f, #ff78be);
+            color: white;
+            text-align: center;
+            padding: 9px;
+            border-radius: 6px;
+            font-size: 23px;
+        }
+
+        .about {
+            padding: 5px 15px;
+            line-height: 1.6;
+        }
+
+        .logo {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .logo img {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            border: 3px solid #6a1b9a;
+        }
+
+        .work {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            margin: 20px 0;
+        }
+
+        .work-box {
+            width: 48%;
+            height: 180px;
+            border: 2px dotted #555555;
+            padding: 5px;
+            text-align: center;
+            background-color: #f7f5ff;
+        }
+
+        .work-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .work-info {
+            width: 45%;
+        }
+
+        .work-info li {
+            margin: 12px 0;
+        }
+
+        a {
+            color: #ff69b9;
+        }
+
+        .caption {
+            text-align: center;
+            font-style: italic;
+            margin-top: -5px;
+            margin-bottom: 25px;
+        }
+
+        .contact {
+            padding: 15px 30px;
+        }
+
+        input[type="text"],
+        input[type="email"] {
+            width: 250px;
+            padding: 8px;
+            margin: 6px 0 15px 0;
+            border: 1px solid #aaa;
+            border-radius: 4px;
+        }
+
+        textarea {
+            width: 300px;
+            height: 80px;
+            padding: 8px;
+            margin-top: 6px;
+            border: 1px solid #aaa;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #ff8eb8;
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #ff92b3;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #666666;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Hello, I'm Yazni Medna</h1>
+
+        <p>
+            <span>Aspiring Web Developer</span>
+        </p>
+    </header>
+
+
+    <div class="container">
+
+        <!-- ABOUT ME -->
+        <div>
+            <h2 class="section-title">About Me</h2>
+
+            <p class="about">
+                Hi! I'm <b>Yazni Medina</b>, an OBMC student who is interested in
+                technology and web development. I enjoy creating simple,
+                creative, and organized websites using HTML and CSS.
+            </p>
+        </div>
+
+
+        <!-- PERSONAL LOGO -->
+        <div class="logo">
+
+            <a href="https://www.google.com" target="_blank">
+
+                <img
+                    src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png"
+                    alt="Personal Logo">
+
+            </a>
+
+            <p>
+                <span>My Personal Logo</span>
+            </p>
+
+        </div>
+
+
+        <!-- MY WORKS -->
+        <div>
+
+            <h2 class="section-title">My Works</h2>
+
+
+            <!-- PROJECT 1 -->
+            <div class="work">
+
+                <div class="work-box">
+
+                    <img src="file:///Users/yazni/Pictures/Photos%20Library.photoslibrary/private/com.apple.Photos/ExternalEditSessions/DE72D24A-E9D9-4710-9471-B48FDABCD236/Image%209-23-26%20at%204.54%E2%80%AFPM.png" alt="Music Project">
+
+                </div>
+
+
+                <div class="work-info">
+
+                    <ul>
+
+                        <li>HTML & CSS Projects</li>
+
+                        <li>Spotify Artist Page</li>
+
+                        <li>Lists, Links and Images</li>
+
+                        <li>
+                            <a href="https://github.com/" target="_blank">
+                                View GitHub Repository
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <p class="caption">
+                My Favorite Music Project
+            </p>
+
+
+            <!-- PROJECT 2 -->
+            <div class="work">
+
+                <div class="work-box">
+
+                    <img src="/Users/yazni/Desktop/screenshot1.png" alt="Movie Project">
+
+                </div>
+
+
+                <div class="work-info">
+
+                    <ol>
+
+                        <li>HTML & CSS Projects</li>
+
+                        <li>HTML Forms</li>
+
+                        <li>Movie Recommendations</li>
+
+                        <li>
+                            <a href="https://github.com/" target="_blank">
+                                View GitHub Repository
+                            </a>
+                        </li>
+
+                    </ol>
+
+                </div>
+
+            </div>
+
+            <p class="caption">
+                My Rate a Movie Form
+            </p>
+
+
+            <!-- DESCRIPTION LIST -->
+            <h3>My Skills</h3>
+
+            <dl>
+
+                <dt><b>HTML</b></dt>
+                <dd>Creating and organizing webpages.</dd>
+
+                <dt><b>CSS</b></dt>
+                <dd>Designing and styling webpages.</dd>
+
+                <dt><b>Web Design</b></dt>
+                <dd>Creating simple and creative layouts.</dd>
+
+            </dl>
+
+        </div>
+
+
+        <!-- CONTACT FORM -->
+        <div>
+
+            <h2 class="section-title">Contact Me</h2>
+
+            <form class="contact">
+
+                <label>
+                    <b>Your Name:</b>
+                </label>
+                <br>
+
+                <input
+                    type="text"
+                    name="name"
+                    placeholder="Type in here...">
+
+                <br>
+
+
+                <label>
+                    <b>Your Email:</b>
+                </label>
+                <br>
+
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="your@email.com">
+
+                <br>
+
+
+                <b>How did you find me?</b>
+                <br>
+
+                <input
+                    type="radio"
+                    name="find"
+                    value="facebook">
+
+                Facebook
+
+                <input
+                    type="radio"
+                    name="find"
+                    value="google">
+
+                Google
+
+                <input
+                    type="radio"
+                    name="find"
+                    value="friends">
+
+                Friends
+
+                <br><br>
+
+
+                <b>Interested In:</b>
+                <br>
+
+                <input
+                    type="checkbox"
+                    name="interest"
+                    value="web">
+
+                Web Design
+
+                <input
+                    type="checkbox"
+                    name="interest"
+                    value="graphic">
+
+                Graphic Design
+
+                <input
+                    type="checkbox"
+                    name="interest"
+                    value="robotics">
+
+                Robotics
+
+                <br><br>
+
+
+                <b>Feedback:</b>
+                <br>
+
+                <textarea
+                    name="feedback"
+                    placeholder="Write your feedback here...">
+                </textarea>
+
+                <br><br>
+
+
+                <b>Rate my Portfolio:</b>
+                <br>
+
+                <input
+                    type="radio"
+                    name="rating"
+                    value="1">
+
+                ⭐
+
+                <input
+                    type="radio"
+                    name="rating"
+                    value="2">
+
+                ⭐⭐
+
+                <input
+                    type="radio"
+                    name="rating"
+                    value="3">
+
+                ⭐⭐⭐
+
+                <input
+                    type="radio"
+                    name="rating"
+                    value="4">
+
+                ⭐⭐⭐⭐
+
+                <input
+                    type="radio"
+                    name="rating"
+                    value="5">
+
+                ⭐⭐⭐⭐⭐
+
+                <br><br>
+
+
+                <input
+                    type="submit"
+                    value="Submit">
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <footer>
+
+        <p>
+            © Yazni Medina | My Personal Portfolio
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
